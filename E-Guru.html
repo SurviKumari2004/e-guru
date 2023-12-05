@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Guru Webpage</title>
+    <style>
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+        }
+        .ul{
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            list-style-type: none;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: large;
+            
+        }
+        .button{
+            color: black;
+            background-color: white;
+            font-size: small;
+            font-weight: bold;
+            height: 38px;
+            width: 140px;
+        }
+        .navlist{
+            padding: 2vw;
+            color: rgb(173, 163, 163);
+            
+        }
+        .navlist:hover{
+            color: rgb(250, 134, 25);
+            cursor: pointer;
+        }
+        .button:hover{
+            font-size: medium;
+        }
+        .main{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            flex-wrap: wrap;
+            width: 100vw;
+            
+        }
+        .main1{
+            width: 50%;
+            margin-left: 11vw;
+        }
+        .container{
+            height: 100px;
+            border-left: 1px rgb(120, 109, 109) solid;
+            padding: 10px;
+        }
+        .div{
+            height: 30px;
+            width: 30px;
+            border-radius: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer img{
+            height: 20px;
+            width: 20px;
+        }
+        footer div h4{
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .h1{
+         font-size: 3vw;
+        }
+        .p{
+            font-size: 1vw;
+        }
+        main2 img{
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+                <span style="padding-left:12px;font-size: larger;"><b>E GURU</span></b></div>
+            <ul class="ul">
+                <li class="navlist">Home</li>
+                <li class="navlist">About us</li>
+                <li class="navlist">Features</li>
+                <li class="navlist">How it works</li>
+            </ul>
+            <button class="button">Sign Up</button>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main1">
+            <h1 style=" text-align: start;" class="h1">STUDY FROM </h1>
+            <h1 style=" text-align: start;" class="h1">HOME WITH EXPERT </h1>
+            <div class="container">
+                <p class="p" style="color: rgb(120, 109, 109); font-size: large;">  A learning system based on formalised </p>
+                <p class="p" style="color: rgb(120, 109, 109); font-size: large;">  teaching with the help of resources.</p>
+            </div>
+            <br>
+            <div style="padding: 10px;">
+                <button class="button" style="background-color: rgb(250, 134, 25); color: white;border: 0px ;">Get Started</button>
+                <button class="button" >Learn More</button>
+            </div>
+        </div>
+        <div class="main2">
+            <div style="background-image: url(images/main-image-bg.png);background-image: repeat(none);height: 29vw;width: 29.3vw;display: flex;justify-content: center;"><img src="images/main-image.png" alt=""></div>
+        </div>
+    </main>
+    <footer style="margin-top:50px;margin-left: 0px;background-color:#070a32;color: white; display: grid; grid-template-columns: repeat(4,1fr);justify-items: center;margin-bottom: 0px;width: 100%;">
+        <div style="color: white;margin-top: 50px;margin-bottom: 50px;">
+            <h2>WHY WE ARE</h2>
+            <h2>THE BEST</h2>
+            <p>a learning system based on</p>
+            <p>formalised teaching with the help of...</p>
+        </div>
+        <div style="margin-top: 50px;margin-bottom: 50px;">
+            <div class="div" style="background-color: #00ffffd0;"><img style="background-color: aqua;" src="images/vector3.png" alt=""></div>
+            <h4>EXPERT TEACHER</h4>
+            <p>teachers from abroad</p>
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div style="margin-top: 50px;">
+            <div class="div" style="background-color:rgb(232, 79, 3) ;"><img style="background-color: rgb(232, 79, 3);" src="images/vector2.png" alt=""></div>
+            <h4>ONLINE COURSES</h4>
+            <p>Lorem ipsum dolor sit.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div style="margin-top: 50px;">
+            <div class="div" style="background-color: rgb(55, 55, 184);"><img style="background-color: rgb(55, 55, 184);" src="images/vector1.png" alt=""></div>
+            <h4>24/7 SUPPORT</h4>
+            <p>a learning Lorem, ipsum.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+
+    </footer>
+</body>
+</html>
